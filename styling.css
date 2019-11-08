@@ -38,3 +38,12 @@ footer, footer a
 .fixed-height {
     height: 100%;
 }
+
+.carousel-caption {
+    background-color: darkgrey; 
+    opacity: 88%;
+}
+
+.carousel-item {
+    height: max-content;
+}
