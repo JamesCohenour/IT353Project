@@ -3,8 +3,21 @@ ul
     list-style-type: none;
 }
 
-footer, footer a, a:hover
+footer, footer a
 {
     color: white;
     background-color: #333333;
+    margin-top: 5px;
 }
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+
+/* .carousel {
+    height: 200px;
+} */
