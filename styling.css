@@ -3,6 +3,10 @@ ul
     list-style-type: none;
 }
 
+body {
+    background-color: lightgray;
+}
+
 footer, footer a
 {
     color: white;
@@ -46,4 +50,24 @@ footer, footer a
 
 .carousel-item {
     height: max-content;
+}
+
+#mainSlide {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#newSlideShow {
+    min-height: 450px;
+}
+
+#feed {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blue {
+    color: white;
+    background-color: #27448a;
+    margin: 1px;
 }
