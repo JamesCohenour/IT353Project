@@ -1,0 +1,42 @@
+table
+{
+    margin-left: 40vw;
+    margin-right: 30vw;
+    margin-top: 10vh;
+    border: 2px outset lightgrey;
+    width: 400px;
+    text-align: center;
+}
+
+h1
+{
+    color:#0B86E0;
+    font-family: "Times New Roman", georgia;
+    font-size: 19px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#logo
+{
+    background-color: white;
+}
+
+#login
+{
+    background-color: #f4f4f9;
+}
+
+html
+{
+    background-image: linear-gradient(rgba(210, 237, 247, 1), rgba(210, 237, 247, 0));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img
+{
+    text-align: center;
+}
