@@ -1,14 +1,8 @@
-ul 
-{
+ul {
     list-style-type: none;
 }
 
-body {
-    /* background-color: lightgray; */
-}
-
-footer, footer a
-{
+footer, footer a {
     color: white;
     background-color: #333333;
     margin-top: 5px;
@@ -47,6 +41,10 @@ footer, footer a
     height: 100%;
 }
 
+#newsIndicators {
+    bottom: 500px;
+}
+
 .carousel-caption {
     background-color: darkgrey; 
     opacity: 88%;
@@ -62,7 +60,7 @@ footer, footer a
 }
 
 #newSlideShow {
-    min-height: 450px;
+    min-height: 550px;
 }
 
 #feed {

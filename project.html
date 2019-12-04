@@ -49,8 +49,8 @@
     </header>
 
     <div id="links" class="links" style="display: none;">
-        <h2 style="size: 3em;color: white; text-align:right">
-            <a style="color:red;" href="#" onclick="document.getElementById('links').style.display = 'none'">Exit X</a>
+        <h2 style="text-align:center">
+            <a style="color:red; margin: 5px;" href="#" onclick="document.getElementById('links').style.display = 'none'">Exit X</a>
         </h2>
         <div class="row">
             <div class="col-md-6">
@@ -221,9 +221,9 @@
         </div>
 
         <div class="row" id="news">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div id="newSlideShow" class="carousel slide carousel-fade" data-ride="carousel" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                    <ol id="newsIndicators" class="carousel-indicators">
                         <li data-target="#newSlideShow" data-slide-to="0" class="active"></li>
                         <li data-target="#newSlideShow" data-slide-to="1"></li>
                         <li data-target="#newSlideShow" data-slide-to="2"></li>
@@ -262,7 +262,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="card">
                     <table class="table">
                         <thead>
