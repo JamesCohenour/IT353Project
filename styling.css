@@ -6,3 +6,15 @@
 #pageHeader {
    font-style: italic;
 }
+
+#lunchMenu {
+    border-top: lightgray;
+    border-top-style: solid;
+    margin-top: .5em;
+}
+
+#topLine{
+    border-top: lightgray;
+    border-top-style: solid;
+    margin-top:5em;
+}
