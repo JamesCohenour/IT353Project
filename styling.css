@@ -4,7 +4,7 @@ ul
 }
 
 body {
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 footer, footer a
@@ -32,6 +32,10 @@ footer, footer a
 .carousel-control-prev:hover {
     background-color:rgb(213, 230, 236);
     opacity: 40%;
+}
+
+.grey {
+    background-color: lightgray;
 }
 
 /* .w-100 {
@@ -70,4 +74,14 @@ footer, footer a
     color: white;
     background-color: #27448a;
     margin: 1px;
+}
+
+.links {
+    background-color:#27448a;
+    position: fixed;
+    width:100%;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
 }

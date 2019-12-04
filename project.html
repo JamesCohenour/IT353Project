@@ -16,7 +16,7 @@
             <div class="d-flex flex-grow-1">
                 <a class="navbar-brand d-none d-lg-inline-block" href="#">
                     <img src="images/olympia-logo.png" alt="logo" width="50px" height="50px"> <span> Olympia CUSD
-                            16<br /><i>Empower learners to recognize &amp; achieve personal growth for success.</i></span>
+                        16<br /><i>Empower learners to recognize &amp; achieve personal growth for success.</i></span>
                 </a>
                 <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
                     <img src="images/olympia-logo.png" alt="logo" width="40px" height="40px">
@@ -30,7 +30,8 @@
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item nav-active">Links</a>
+                        <a href="#" onclick="document.getElementById('links').style.display = ''"
+                            class="nav-link m-2 menu-item nav-active">Links</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link m-2 menu-item">Schools</a>
@@ -46,8 +47,39 @@
             </div>
         </nav>
     </header>
+
+    <div id="links" class="links" style="display: none;">
+        <h2 style="size: 3em;color: white; text-align:right">
+            <a style="color:red;" href="#" onclick="document.getElementById('links').style.display = 'none'">Exit X</a>
+        </h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                    <li class="list-group-item">thing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <br>
-    <div class="container">
+
+    <div class="container grey">
         <div class="row">
             <div class="card rounded">
                 <div id="mainSlide" class="carousel slide" data-ride="carousel" style="margin: 14px;">
@@ -91,7 +123,7 @@
         <div id="events">
             <h2>EVENTS</h2>
         </div> -->
-        
+
         <div class="row" id="feed">
             <div class="col-md-7">
                 <div class="card">
@@ -104,7 +136,7 @@
                                 <h3>Mike Castleman</h3>
                                 <p>
                                     The Lady Spartans pick up a couple non conference wins in their home opener over
-                                    DeeMack, 39 to 26! 
+                                    DeeMack, 39 to 26!
                                 </p>
                             </div>
                         </li>
