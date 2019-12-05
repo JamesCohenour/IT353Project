@@ -20,7 +20,7 @@
             <td>
         <form method="POST" action="query.php">
             <p>Login ID: <input type="text" name="id"/><p>
-            <p>Password: <input type="text" name="password"/><p>
+            <p>Password: <input type="password" name="password"/><p>
             <input type="submit"/>
         </form>
             </td>

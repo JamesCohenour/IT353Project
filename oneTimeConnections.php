@@ -28,9 +28,5 @@ else{
 }
 sqlsrv_free_stmt($stmt);
 
-
-	
-	
-
 ?>  
   

@@ -17,15 +17,15 @@ $serverName = "itkmssql";
 $tableName = "Users";	
 $sql = "Insert INTO $tableName
 VALUES
-(123456789, 'John'),
-(999887777, 'Alicia'),	
-(677678989, 'Cecilia'),
-(333445555, 'Franklin'),
-(987654321, 'Jennifer'),
-(666884444, 'Ramish'),
-(453453453, 'Joyce'),
-(987987987, 'Ahmad'),
-(888665555, 'James')";
+(123456789, 'password'),
+(999887777, 'password'),	
+(677678989, 'password'),
+(333445555, 'password'),
+(987654321, 'password'),
+(666884444, 'password'),
+(453453453, 'password'),
+(987987987, 'password'),
+(888665555, 'password')";
 
 $stmt = sqlsrv_query($conn, $sql);
 	echo "<br/> ";
@@ -36,3 +36,5 @@ $stmt = sqlsrv_query($conn, $sql);
 	else
 		echo "<br/>Data added to " . $tableName;
 	sqlsrv_free_stmt($stmt);
+
+?>

@@ -14,7 +14,7 @@
 	else
 		die(print_r(sqlsrv_errors(), true));
 	
-	$tableName = "Id";
+	$tableName = "Users";
 	$sql ="IF NOT EXISTS (SELECT * FROM Sys.tables
 	WHERE name =N'Users' and type =N'U')
 	BEGIN
