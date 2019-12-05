@@ -18,3 +18,13 @@
     border-top-style: solid;
     margin-top:5em;
 }
+
+#lunchPrices tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+#lunchPrices td{
+    text-align: center;
+    padding-right: 4em;
+    padding-left: 4em;
+}
