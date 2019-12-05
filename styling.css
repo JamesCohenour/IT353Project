@@ -83,3 +83,59 @@ footer, footer a {
     left: 0px;
     z-index: 1000;
 }
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: .5em;
+}
+#pageHeading {
+   font-size: 2.25em;
+   padding-top: .6em;
+   padding-bottom: .6em;
+}
+
+#lunchMenu {
+    border-top: lightgray;
+    border-top-style: solid;
+    margin-top: .5em;
+}
+
+#topLine{
+    border-top: lightgray;
+    border-top-style: solid;
+    margin-top:5em;
+}
+
+#lunchPrices tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+#lunchPrices td{
+    text-align: center;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+#staff{
+    width: 100%;
+}
+
+#tollFree {
+    text-align: center;
+}
+
+#contactUs {
+    width: 100%;
+    text-align: center;
+    font-size: .85em;
+}
+
+#directions {
+    text-align: center;
+    padding-top: 1em;
+    color: deepskyblue;
+}
+#routes {
+    padding-left: 5em;
+    padding-right: 5em;
+}
