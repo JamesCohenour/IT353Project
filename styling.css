@@ -3,8 +3,10 @@
     padding-bottom: .5em;
     font-size: .5em;
 }
-#pageHeader {
-   font-style: italic;
+#pageHeading {
+   font-size: 2.25em;
+   padding-top: .6em;
+   padding-bottom: .6em;
 }
 
 #lunchMenu {
@@ -31,4 +33,14 @@
 
 #staff{
     width: 100%;
+}
+
+#tollFree {
+    text-align: center;
+}
+
+#contactUs {
+    width: 100%;
+    text-align: center;
+    font-size: .85em;
 }
